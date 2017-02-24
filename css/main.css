@@ -1,0 +1,223 @@
+/*** sectioning elements ***/
+
+body {
+
+}
+
+header {
+
+}
+
+main {
+font-family: 'Lancelot', cursive;
+}
+
+footer {
+font-family: 'Niconne', cursive;
+background-color: #5A0B4D;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+.col-sm-2 {
+  margin-bottom: 10px;
+  background-color: #414361;
+  font-family: 'Lancelot', cursive
+}
+
+
+/**** content styles ***/
+
+h1 {
+font-family: 'Niconne', cursive;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p a {
+  text-decoration: underline;
+}
+
+p {
+font-family: 'Lancelot', cursive;
+color: #000;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+.info {
+  font-size: 30px;
+}
+
+.hide-sm-down {
+  font-size: 20px;
+}
+
+caption {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+}
+@media (max-width: 600px) {
+  table {
+    max-width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    border-bottom: #000;
+  }
+
+  tr:nth-child(even) {
+    background-color: #467586;
+  }
+
+  td {
+    display: block;
+  }
+}
+
+
+table {
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+background-color: #3A606E;
+}
+
+tr {
+
+}
+
+th {
+padding: 10px;
+}
+
+td {
+padding: 8px;
+}
+
+address {
+  color: #3A6063;
+}
+
+
+/*** image styles ***/
+
+img  {
+float: left;
+margin: 5px;
+padding: 10px;
+}
+
+
+/*** link styles ***/
+
+a:link {
+color: #fff;
+text-decoration: none;
+}
+
+a:visited {
+color: #fff;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+
+/* =================================================
+  Navbar Content
+  ================================================ */
+
+  @media screen and (min-width:200px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  }
+
+  .navbar-brand a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .navbar-brand a:hover {
+    text-decoration: none;
+  }
+
+  .navbar {
+    background-color: #F9DEC9;
+  }
+
+.slideout-brand {
+  color: #000;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color:#000;
+}
+
+.nav-primary {
+  background-color: #F9DEC9;
+}
+
+.slideout-brand a {
+  color: #000;
+}
