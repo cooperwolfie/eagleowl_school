@@ -152,6 +152,14 @@ address {
   color: #3A6063;
 }
 
+.location {
+  font-size: 20px;
+}
+
+.number {
+  font-size: 20px;
+}
+
 
 /*** image styles ***/
 
